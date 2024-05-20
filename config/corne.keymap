@@ -55,7 +55,8 @@
                 <&macro_press>,
                 <&kp LGUI &kp LCTRL &kp LSHFT>,
                 <&macro_tap>,
-                <&kp NUMBER_4>;
+                <&kp NUMBER_4>,
+                <&macro_release>;
 
             label = "SCREEN_AREA";
         };
@@ -67,7 +68,8 @@
                 <&macro_press>,
                 <&kp LGUI &kp LCTRL &kp LSHFT>,
                 <&macro_tap>,
-                <&kp NUMBER_3>;
+                <&kp NUMBER_3>,
+                <&macro_release>;
 
             label = "SCREEN";
         };
