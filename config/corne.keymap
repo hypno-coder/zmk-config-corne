@@ -48,18 +48,28 @@
     };
 
     macros {
-        screen: screen {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LGUI &kp LCTRL &kp LSHFT &kp NUMBER_3>;
-            label = "SCREEN";
-        };
-
         screen_area: screen_area {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LGUI &kp LCTRL &kp LSHFT &kp NUMBER_4>;
+            bindings =
+                <&macro_press>,
+                <&kp LGUI &kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp NUMBER_4>;
+
             label = "SCREEN_AREA";
+        };
+
+        screen: screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LGUI &kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp NUMBER_3>;
+
+            label = "SCREEN";
         };
     };
 
