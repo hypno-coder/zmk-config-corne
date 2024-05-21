@@ -114,7 +114,7 @@
             bindings = <
 &trans    &trans            &trans             &trans                &trans                 &trans    &trans    &trans    &trans            &trans      &trans     &trans
 &kp CAPS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp LEFT  &kp DOWN  &kp UP_ARROW      &kp RIGHT   &trans     &trans
-&trans    &trans            &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans    &trans    &kp LS(NUMBER_6)  &kp LS(N7)  &kp SLASH  &kp NON_US_BACKSLASH
+&trans    &trans            &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans    &trans    &kp LS(NUMBER_6)  &kp LS(N7)  &kp SLASH  &kp BACKSLASH
                                                &kp LSHFT             &kp LCTRL              &trans    &trans    &trans    &trans
             >;
         };
@@ -125,6 +125,15 @@
 &trans  &trans  &trans  &screen  &screen_area  &trans    &trans  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &trans  &trans
 &trans  &trans  &trans  &trans   &trans        &trans    &trans  &trans             &trans            &trans           &trans  &trans
                         &trans   &trans        &trans    &trans  &trans             &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
