@@ -75,20 +75,6 @@
 
             label = "SCREEN";
         };
-
-        backquote: backquote {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp GLOBE>,
-                <&macro_tap>,
-                <&kp TILDE>,
-                <&macro_tap>,
-                <&kp GLOBE>;
-
-            label = "BACKQUOTE";
-        };
     };
 
     keymap {
@@ -126,7 +112,7 @@
 
         second_layer {
             bindings = <
-&kp TILDE  &backquote        &trans             &trans                &trans                 &trans    &trans    &trans    &trans            &trans      &trans     &trans
+&kp GRAVE  &trans            &trans             &trans                &trans                 &trans    &trans    &trans    &trans            &trans      &trans     &trans
 &kp CAPS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp LEFT  &kp DOWN  &kp UP_ARROW      &kp RIGHT   &trans     &trans
 &trans     &trans            &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans    &trans    &kp LS(NUMBER_6)  &kp LS(N7)  &kp SLASH  &kp BACKSLASH
                                                 &kp LSHFT             &kp LCTRL              &trans    &trans    &trans    &trans
