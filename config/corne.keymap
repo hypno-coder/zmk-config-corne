@@ -121,10 +121,10 @@
 
         third_layer {
             bindings = <
-&trans  &trans  &trans  &trans   &trans        &trans    &trans  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &trans  &trans
-&trans  &trans  &trans  &screen  &screen_area  &trans    &trans  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &trans  &trans
-&trans  &trans  &trans  &trans   &trans        &trans    &trans  &trans             &trans            &trans           &trans  &trans
-                        &trans   &trans        &trans    &trans  &trans             &trans
+&kp HOME  &kp END  &kp INSERT  &trans   &trans        &trans    &trans  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &trans  &kp DELETE
+&trans    &trans   &trans      &screen  &screen_area  &trans    &trans  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &trans  &trans
+&trans    &trans   &trans      &trans   &trans        &trans    &trans  &trans             &trans            &trans           &trans  &trans
+                               &trans   &trans        &trans    &trans  &trans             &trans
             >;
         };
 
